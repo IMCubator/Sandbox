@@ -23,6 +23,7 @@ namespace BdInsight.Core.Tests
 
         [Theory]
         [InlineData(3)]
+        [InlineData(4)]
         [InlineData(5)]
         [InlineData(6)]
         public void MyFirstTheory(int value)
