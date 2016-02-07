@@ -23,9 +23,9 @@ namespace BdInsight.Core.Tests
 
         [Theory]
         [InlineData(3)]
-        [InlineData(4)]
+        [InlineData(41)]
         [InlineData(5)]
-        [InlineData(6)]
+        [InlineData(61)]
         public void MyFirstTheory(int value)
         {
             Assert.True(IsOdd(value));
