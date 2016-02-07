@@ -132,7 +132,7 @@ build:
 
 # scripts to run before build
 before_build:
-  - nuget restore
+  - nuget restore bdinsight\bdinsight.sln
 
 # scripts to run after build
 after_build:
